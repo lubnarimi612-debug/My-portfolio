@@ -1,11 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lobna Khanam Rimi Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080b14" />
+  <meta name="description" content="Portfolio of Lobna Khanam Rimi, a Front-End Developer in training." />
+  <title>Lobna Khanam Rimi | Front-End Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Rimi home"><span class="brand-mark">R</span><span>Rimi<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home" class="active">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="header-resume" href="assets/Lobna-Khanam-Rimi-CV.pdf" download><span>↓</span> Download CV</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING & OPPORTUNITIES</div>
+        <p class="hello">Hello, I'm</p>
+        <h1>Lobna Khanam<br><span class="gradient-text">Rimi.</span></h1>
+        <h2 class="role-line">Front-End Developer <span class="cursor">|</span></h2>
+        <p class="hero-description">I’m a Computer Engineering student building my skills in web development and creating clean, responsive, user-friendly web experiences.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore My Work <span>↗</span></a><a class="button button-outline" href="#contact">Contact Me</a></div>
+        <div class="social-row" aria-label="Social profiles">
+          <a href="https://github.com/lubnarimi612-debug" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub">GH</a>
+          <a href="https://www.linkedin.com/in/lobna-rimi" target="_blank" rel="noreferrer" aria-label="LinkedIn" title="LinkedIn">in</a>
+          <a href="https://www.facebook.com/lubna.khanm" target="_blank" rel="noreferrer" aria-label="Facebook" title="Facebook">f</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="photo-frame"><div class="photo-glow"></div><img src="assets/rimi-profile.jpg" alt="Portrait of Lobna Khanam Rimi wearing a terracotta hijab and glasses" /></div>
+        <div class="floating-card card-code"><span class="mini-icon">&lt;/&gt;</span><div><strong>Front-End</strong><small>Web Development</small></div></div>
+        <div class="floating-card card-status"><span class="status-dot"></span><div><strong>Currently learning</strong><small>Web Development</small></div></div>
+        <span class="spark spark-one">✦</span><span class="spark spark-two">✧</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal"><p class="section-kicker">GET TO KNOW ME</p><h2>About <span class="gradient-text">Me</span></h2><p class="section-subtitle">A little about my journey into web development.</p></div>
+      <div class="about-grid">
+        <article class="glass-card about-card reveal"><div class="card-symbol">✦</div><h3>My Journey</h3><p>I’m Lobna Khanam Rimi, a Diploma in Computer Engineering student at Mymensingh Polytechnic Institute. I’m interested in front-end development and enjoy learning how design and code work together to create useful websites.</p><p>I’m currently completing a Front-End Development internship at BD Calling and taking a Web Development course at Programming Hero.</p></article>
+        <div class="about-facts reveal"><div class="fact-card"><span class="fact-icon">⌘</span><div><strong>Front-End Development</strong><p>Learning by building and practicing</p></div></div><div class="fact-card"><span class="fact-icon">▣</span><div><strong>Diploma in Computer Engineering</strong><p>Mymensingh Polytechnic Institute · 8th semester</p></div></div><div class="fact-card"><span class="fact-icon">↗</span><div><strong>Continuous Learning</strong><p>Programming Hero · Web Development</p></div></div></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading reveal"><p class="section-kicker">WHAT I WORK WITH</p><h2>Skills & <span class="gradient-text">Tools</span></h2><p class="section-subtitle">Technologies and tools I’ve been learning and using in practice.</p></div>
+      <div class="skill-grid">
+        <article class="glass-card skill-card reveal"><div class="skill-card-head"><span class="skill-icon">&lt;/&gt;</span><h3>Front-End</h3></div><div class="chips"><span>HTML5</span><span>CSS3</span><span>Responsive Design</span><span>JavaScript</span><span>Tailwind CSS</span><span>React</span><span>Next.js</span></div></article>
+        <article class="glass-card skill-card reveal"><div class="skill-card-head"><span class="skill-icon">⌘</span><h3>Development Tools</h3></div><div class="chips"><span>Git</span><span>GitHub</span><span>Netlify</span><span>VS Code</span></div></article>
+        <article class="glass-card skill-card reveal"><div class="skill-card-head"><span class="skill-icon">✎</span><h3>Design & Productivity</h3></div><div class="chips"><span>Figma</span><span>Adobe Photoshop</span><span>Adobe Illustrator</span><span>MS Word</span><span>MS Excel</span><span>PowerPoint</span></div></article>
+      </div>
+      <p class="skills-note">Skill levels vary by technology; I’m continuing to practice and improve through coursework and projects.</p>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading reveal"><p class="section-kicker">MY LEARNING PATH</p><h2>Education & <span class="gradient-text">Experience</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="glass-card timeline-card"><div class="timeline-top"><span class="timeline-label">INTERNSHIP</span><span class="timeline-date">Present</span></div><h3>Front-End Development Intern</h3><p class="timeline-place">BD Calling</p><p>Currently gaining practical experience and developing front-end skills through internship activities.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="glass-card timeline-card"><div class="timeline-top"><span class="timeline-label">EDUCATION</span><span class="timeline-date">Running</span></div><h3>Diploma in Computer Engineering</h3><p class="timeline-place">Mymensingh Polytechnic Institute</p><p>8th semester · Session 2022–2023</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="glass-card timeline-card"><div class="timeline-top"><span class="timeline-label">PROFESSIONAL TRAINING</span><span class="timeline-date">Ongoing</span></div><h3>Web Development</h3><p class="timeline-place">Programming Hero</p><p>Currently studying web development and strengthening practical skills.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading reveal"><p class="section-kicker">SELECTED PRACTICE WORK</p><h2>Featured <span class="gradient-text">Projects</span></h2><p class="section-subtitle">A few live projects from my front-end learning journey.</p></div>
+      <div class="project-grid">
+        <article class="glass-card project-card reveal"><div class="project-preview preview-issues"><span class="preview-window"><i></i><i></i><i></i></span><div class="preview-content"><span class="preview-tag">ISSUES</span><div class="preview-line wide"></div><div class="preview-line"></div><div class="preview-row"><b></b><b></b><b></b></div><div class="preview-line wide"></div></div><span class="project-number">01</span></div><div class="project-info"><p class="project-type">TRACKER · FRONT-END</p><h3>GitHub Issues Tracker</h3><p>A practice project focused on an issues-tracking interface.</p><div class="project-actions"><a class="button button-small button-primary" href="https://lubnarimi612-debug.github.io/Assignment-05-GitHub-Issues-Tracker/" target="_blank" rel="noreferrer">Live Demo ↗</a><a class="text-link" href="https://github.com/lubnarimi612-debug" target="_blank" rel="noreferrer">GitHub Profile ↗</a></div></div></article>
+        <article class="glass-card project-card reveal"><div class="project-preview preview-techwave"><span class="preview-window"><i></i><i></i><i></i></span><div class="techwave-title">TECH<span>WAVE</span></div><div class="preview-line wide"></div><div class="preview-line"></div><div class="preview-pill"></div><span class="project-number">02</span></div><div class="project-info"><p class="project-type">LANDING PAGE · UI</p><h3>TechWave Podcast Landing Page</h3><p>A landing-page design exercise for a podcast brand.</p><div class="project-actions"><a class="button button-small button-primary" href="https://lubnarimi612-debug.github.io/Assignment-02-TechWave-Podcast-Landing-Page/" target="_blank" rel="noreferrer">Live Demo ↗</a><a class="text-link" href="https://github.com/lubnarimi612-debug" target="_blank" rel="noreferrer">GitHub Profile ↗</a></div></div></article>
+        <article class="glass-card project-card reveal"><div class="project-preview preview-job"><span class="preview-window"><i></i><i></i><i></i></span><div class="job-dash"><div class="job-side"></div><div class="job-main"><div class="job-stat"></div><div class="job-stat"></div><div class="job-stat"></div><div class="job-table"></div></div></div><span class="project-number">03</span></div><div class="project-info"><p class="project-type">DASHBOARD · TRACKER</p><h3>Job Application Tracker</h3><p>A practice project for organizing and tracking job applications.</p><div class="project-actions"><a class="button button-small button-primary" href="https://lubnarimi612-debug.github.io/Assignment-04-Job-Application-Tracker/" target="_blank" rel="noreferrer">Live Demo ↗</a><a class="text-link" href="https://github.com/lubnarimi612-debug" target="_blank" rel="noreferrer">GitHub Profile ↗</a></div></div></article>
+      </div>
+      <p class="project-note">Project descriptions are brief summaries. Open each live demo to explore the work.</p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel reveal"><div><p class="section-kicker">LET’S CONNECT</p><h2>Have an opportunity<br>or a project in mind?</h2><p>I’m happy to connect, learn, and explore opportunities in front-end development.</p></div><div class="contact-actions"><a class="button button-primary" href="https://www.linkedin.com/in/lobna-rimi" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a><a class="button button-outline" href="https://github.com/lubnarimi612-debug" target="_blank" rel="noreferrer">View GitHub ↗</a><a class="button button-outline" href="https://www.facebook.com/lubna.khanm" target="_blank" rel="noreferrer">Facebook ↗</a></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">R</span><span>Rimi<span class="brand-dot">.</span></span></a><p>Designed & built by Lobna Khanam Rimi</p><a href="#home" class="back-top">Back to top ↑</a></footer>
+  <script src="script.js"></script>
 </body>
 </html>
